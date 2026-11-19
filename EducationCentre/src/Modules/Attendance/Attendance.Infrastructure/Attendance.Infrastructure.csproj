@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Attendance.Application\Attendance.Application.csproj" />
+    <ProjectReference Include="..\Attendance.Domain\Attendance.Domain.csproj" />
+    <ProjectReference Include="..\..\..\Shared\EducationCentre.Shared.Persistence\EducationCentre.Shared.Persistence.csproj" />
+    <ProjectReference Include="..\..\..\Shared\EducationCentre.Shared.Messaging\EducationCentre.Shared.Messaging.csproj" />
+    <ProjectReference Include="..\..\..\Shared\EducationCentre.Shared.Kernel\EducationCentre.Shared.Kernel.csproj" />
+    <ProjectReference Include="..\..\..\Shared\EducationCentre.Shared.Storage\EducationCentre.Shared.Storage.csproj" />
+    <ProjectReference Include="..\..\..\Shared\EducationCentre.Shared.Workflow\EducationCentre.Shared.Workflow.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.12" />
+  </ItemGroup>
+
+</Project>
